@@ -55,6 +55,20 @@ html, body {
 }
 @main-font:'Quicksand', sans-serif;
 @header-font: 'Indie Flower', cursive;
+.notmain-fonts(){
+	font-size: 1.5rem;
+	font-family: @main-font;
+}
+.main-fonts(){
+	font-size: 2rem;
+	font-family: @main-font;
+}
+.work-history{
+	// border: 1px solid black;
+	width: 10vw;
+	.center();
+	flex-direction: column;
+}
 
 .center(){
 	display: flex;
@@ -111,4 +125,37 @@ p{
 }
 .boton:hover{
 	background-color: white;
+}
+h1{
+	.main-fonts();
+}
+h2{
+	.notmain-fonts()
+}
+.skills{
+	.center();
+	flex-direction: column;
+	line-height: 70px;
+}
+.column{
+	display: flex;
+
+}
+.column-years{
+	.work-history();
+}
+.column-companies{
+	.work-history();
+	width: 30vh;
+}
+.column-titlesOfCompanie{
+	.work-history();
+	width: 40vw;
+}
+.column-techUsed{
+	.work-history();
+	width: 20vw;
+}
+.column{
+	.center();
 }

@@ -132,6 +132,13 @@ body {
   height: 100%;
   box-sizing: border-box;
 }
+.work-history {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -189,4 +196,58 @@ p {
 }
 .boton:hover {
   background-color: white;
+}
+h1 {
+  font-size: 2rem;
+  font-family: 'Quicksand', sans-serif;
+}
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 70px;
+}
+.column {
+  display: flex;
+}
+.column-years {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.column-companies {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30vh;
+}
+.column-titlesOfCompanie {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40vw;
+}
+.column-techUsed {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+}
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
