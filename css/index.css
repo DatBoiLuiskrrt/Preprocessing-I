@@ -132,6 +132,10 @@ body {
   height: 100%;
   box-sizing: border-box;
 }
+/* *****************************************************  */
+/*  VARIABLES */
+/* MIXINS */
+/*     WOOOOOOOOOOOOOOOOOOORK    */
 .work-history {
   width: 10vw;
   display: flex;
@@ -146,7 +150,10 @@ html {
 body {
   font-family: 'Quicksand', sans-serif;
 }
-li {
+header {
+  background-color: darkgrey;
+}
+header li {
   font-size: 2rem;
   font-family: 'Indie Flower', cursive;
   display: flex;
@@ -154,14 +161,19 @@ li {
   align-items: center;
   padding: 2%;
 }
-header {
-  background-color: darkgrey;
-}
-ul {
+header ul {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0%;
+}
+@media (max-width: 500px) {
+  header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 img {
   width: 50vw;
