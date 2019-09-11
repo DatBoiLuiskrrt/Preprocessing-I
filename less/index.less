@@ -75,6 +75,12 @@ html, body {
 	justify-content: center;
 	align-items: center;
 }
+.centerColumn(){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
 html{
 	box-sizing: border-box;
 	font-size: 62.5%;
@@ -110,6 +116,16 @@ p{
 	background-color: lightgrey;
 	font-family: @main-font;
 	font-size: 2rem;
+
+	@media(max-width:500px){
+		.center();
+	}
+	.dude-typing{
+	@media(max-width:500px){
+		display:none;
+	}
+		
+	}
 }
 .child-inside-top-content{
 	width:40vw;
@@ -158,12 +174,19 @@ h2{
 }
 .column{
 	.center();
+	background-color: lightgray;
 }
 footer{
-	.center();
+	.centerColumn();
 	padding: 30px;
-	margin-top: 2%;
+	margin-top: 0%;
 	height: 2vh;
 	width: 100vw;
 	background-color: darkgray;
+}
+.hireMe{
+	.centerColumn();
+	background-color: darkgray;
+	
+	
 }

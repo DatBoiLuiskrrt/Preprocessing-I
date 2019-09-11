@@ -178,6 +178,18 @@ p {
   font-family: 'Quicksand', sans-serif;
   font-size: 2rem;
 }
+@media (max-width: 500px) {
+  .top-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .top-content .dude-typing {
+    display: none;
+  }
+}
 .child-inside-top-content {
   width: 40vw;
   display: flex;
@@ -250,14 +262,23 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: lightgray;
 }
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 30px;
-  margin-top: 2%;
+  margin-top: 0%;
   height: 2vh;
   width: 100vw;
+  background-color: darkgray;
+}
+.hireMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: darkgray;
 }
