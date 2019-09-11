@@ -161,6 +161,13 @@ header li {
   align-items: center;
   padding: 2%;
 }
+header a {
+  text-decoration: none;
+  color: black;
+}
+header a:hover {
+  color: white;
+}
 header ul {
   display: flex;
   justify-content: center;
