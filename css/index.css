@@ -251,3 +251,13 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-top: 2%;
+  height: 2vh;
+  width: 100vw;
+  background-color: darkgray;
+}
