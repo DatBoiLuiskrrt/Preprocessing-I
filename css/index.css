@@ -127,10 +127,66 @@ table {
   border-spacing: 0;
 }
 /* Set every element's box-sizing to border-box */
-* {
-  box-sizing: border-box;
-}
 html,
 body {
   height: 100%;
+  box-sizing: border-box;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+li {
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+header {
+  background-color: darkgrey;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+}
+img {
+  width: 50vw;
+  height: 40vh;
+}
+p {
+  font-size: 1.5rem;
+}
+.top-content {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: lightgrey;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+}
+.child-inside-top-content {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.botton-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boton {
+  background-color: lightcoral;
+  cursor: pointer;
+}
+.boton:hover {
+  background-color: white;
 }

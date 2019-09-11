@@ -49,12 +49,66 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
 html, body {
-    height: 100%;
+	height: 100%;
+	box-sizing: border-box;	  
 }
+@main-font:'Quicksand', sans-serif;
+@header-font: 'Indie Flower', cursive;
 
+.center(){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+html{
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+body{
+	font-family: @main-font;
+}
+li{
+	font-size: 2rem;
+	font-family: @header-font;
+	.center();
+	padding: 2%;
+}
+header{
+	background-color:darkgrey;
+}
+ul{
+	.center();
+	padding: 0%;
+}
+img{
+	width: 50vw;
+	height: 40vh;
 
+}
+p{
+	font-size: 1.5rem;
+}
+.top-content{
+	display:flex;
+	padding-top: 5%;
+	padding-bottom:5%;
+	background-color: lightgrey;
+	font-family: @main-font;
+	font-size: 2rem;
+}
+.child-inside-top-content{
+	width:40vw;
+	.center();
+	flex-direction: column;
+}
+.botton-parent{
+	.center();
+}
+.boton{
+	background-color: lightcoral;
+	cursor: pointer;
+}
+.boton:hover{
+	background-color: white;
+}
