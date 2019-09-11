@@ -144,55 +144,69 @@ p{
 	}
 		
 	}
+	.child-inside-top-content{
+		width:40vw;
+		.center();
+		flex-direction: column;
+	}
+	.botton-parent{
+		.center();
+	}
+	.boton{
+		background-color: lightcoral;
+		cursor: pointer;
+	}
+	.boton:hover{
+		background-color: white;
+	}
 }
-.child-inside-top-content{
-	width:40vw;
-	.center();
-	flex-direction: column;
-}
-.botton-parent{
-	.center();
-}
-.boton{
-	background-color: lightcoral;
-	cursor: pointer;
-}
-.boton:hover{
-	background-color: white;
-}
+
+
+
 h1{
 	.main-fonts();
 }
 h2{
 	.notmain-fonts()
 }
-.skills{
-	.center();
-	flex-direction: column;
-	line-height: 70px;
-}
-.column{
-	display: flex;
+.middle-content{
+
+	.skills{
+		.center();
+		flex-direction: column;
+		line-height: 70px;
+	}
+	.hireMe{
+		.centerColumn();
+		background-color: darkgray;
+		
+		
+	}
+
+
 
 }
-.column-years{
-	.work-history();
-}
-.column-companies{
-	.work-history();
-	width: 30vh;
-}
-.column-titlesOfCompanie{
-	.work-history();
-	width: 40vw;
-}
-.column-techUsed{
-	.work-history();
-	width: 20vw;
-}
+
 .column{
+	display: flex;
 	.center();
 	background-color: lightgray;
+	.column-years{
+		.work-history();
+	}
+	.column-companies{
+		.work-history();
+		width: 30vh;
+	}
+	.column-titlesOfCompanie{
+		.work-history();
+		width: 40vw;
+	}
+	.column-techUsed{
+		.work-history();
+		width: 20vw;
+	}
+
 }
 footer{
 	.centerColumn();
@@ -200,10 +214,4 @@ footer{
 	margin-top: 0%;
 	height: 2vh;
 	background-color: darkgray;
-}
-.hireMe{
-	.centerColumn();
-	background-color: darkgray;
-	
-	
 }
